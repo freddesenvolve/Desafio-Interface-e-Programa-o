@@ -1,0 +1,35 @@
+:root {
+    --color-neutral-0: #000000;
+    --color-neutral-10: #FFFFFF;
+    --color-neutral-30: #6e6e73;
+    --color-neutral-40: #f5f5f7;
+    --color-neutral-50: #2997ff:
+}
+header {
+    background-color: var(--color-neutral-0);
+    color:blue;
+    height:fit-content;
+    opacity: 0.9;
+    z-index: 1;
+    
+}
+
+header nav ul{
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+  
+}
+header nav ul li{
+    
+    min-width: fit-content;
+    height: fit-content;
+    padding: 0 0.75rem;
+    font-size:larger;
+    cursor: pointer;
+
+    list-style: none;
+}
