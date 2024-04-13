@@ -6,8 +6,9 @@
     
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="pt2.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../pt2.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="sugestões.css">
     
     
     
@@ -15,33 +16,50 @@
     <title>NAÇÂO AZUL</title>
 </head>
 <body>
+    
 
     <Header>
         <nav class="Cabeça">
-            <ul> 
+            <ul>
                 <li>
                     <a>
                         <img src="https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"/>
                     </a>
-                   
-                </li> 
-                <a href="./Sobre/sobre.html"><li>Sobre</li></a>
-                <a href="./Títulos/Títulos.html"><li>Títulos</li></a>
-                <a href="./Ídolos/ídolos.html"><li>Ìdolos</li></a>
-                <a href="./temporada/temporada.html"><li>Temporada</li></a>
-                <a href="./Sugestões/sugestões.html"><li>Sugestões</li></a>
-            
+                </li>
+                <a href="../index.html"><li>Início</li></a>
+                <a href="../Sobre/sobre.html"><li>Sobre</li></a>
+                <a href="../Títulos/Títulos.html"><li>Títulos</li></a>
+                <a href="../Ídolos/ídolos.html"><li>Ìdolos</li></a>
+                <a href="../temporada/temporada.html"><li>Temporada</li></a>
             </ul>
         </nav>
+        <form action="pagina_destino.html" method="post">
+            <h2>
+                <label for="NOME">NOME:</label>
+                <input type="text" placeholder="SEU NOME" id="nome">
+
+            </h2>
+            <h2>
+                <label for="TELEFONE">TELEFONE:</label>
+                <input type="text" placeholder="TELEFONE">
+
+            </h2>
+            <h2>
+                Você já é Sócio 5 Estrelas?
+                <input type="radio" id="Sim" name="1">
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Não" name="1">
+                <label for="Não">Não</label>
+
+            </h2>
+            <h2>MANDE SUGESTÕES PARA MELHORARMOS:</h2>
+            <textarea></textarea>
+            <input type="submit" value="ENVIAR"/>
+            <p> <img src="https://www.cruzeiro.com.br/media/fotos_socio5estrelas/18/04/2023/bannersite_socio.png"> </p>
+            
+        </form>
     </Header>
-    <main>
-       <section> 
-        <img src="https://www.cruzeiro.com.br/media/fotos_noticias/17/03/2022/temp_wJELp6V.png"/>
-       </section>
-    </div>
-    </main>
     <footer class="PDITA">
-       
         <div id="footer_content">
             <div id="footer_contacts">
                 <h1>Frederico Matheus Costa Duarte</h1>
@@ -63,4 +81,3 @@
         </div>
     </footer>
 </body>
-</html>
